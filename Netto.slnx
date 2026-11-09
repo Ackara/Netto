@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/.root/">
+    <File Path=".gitignore" />
+    <File Path="changelog.md" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/build/">
+    <File Path="build.ps1" />
+    <File Path="build/manifest.json" />
+    <File Path="build/tasks.psake.ps1" />
+    <File Path="commands.json" />
+    <File Path="Directory.Build.props" />
+  </Folder>
+  <Project Path="src/Netto.MSBuild/Netto.MSBuild.csproj" />
+  <Project Path="src/Netto/Netto.csproj" />
+  <Project Path="tests/Netto.MSTest/Netto.MSTest.csproj" />
+</Solution>

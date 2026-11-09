@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Project>
+	<PropertyGroup Label="Project Configuration">
+		<LangVersion>latest</LangVersion>
+		<RootNamespace>Tekcari.Netto</RootNamespace>
+
+		<SolutionName>Netto</SolutionName>
+		<SolutionDir>$(MSBuildThisFileDirectory)</SolutionDir>
+	</PropertyGroup>
+
+	<PropertyGroup Label="Metadata">
+		<Title>Netto</Title>
+		<Authors>Ackara</Authors>
+		<Company>Tekcari</Company>
+		<Owners>$(Company)</Owners>
+		<Copyright>Copyright 2026 Tekcari, All Rights Reserved.</Copyright>
+		
+		<RepositoryUrl>https://github.com/Ackara/Netto.git</RepositoryUrl>
+		<PackageProjectUrl>$(RepositoryUrl)</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageLicenseFile>license</PackageLicenseFile>
+		<PackageReleaseNotes>changelog.md</PackageReleaseNotes>		
+	</PropertyGroup>
+</Project>
